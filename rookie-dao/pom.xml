@@ -4,9 +4,20 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.rookie.bigdata</groupId>
+
+
+
+  <parent>
+    <artifactId>rookie-spring</artifactId>
+    <groupId>com.rookie.bigdata</groupId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+<!--  <groupId>com.rookie.bigdata</groupId>-->
   <artifactId>rookie-dao</artifactId>
-  <version>1.0-SNAPSHOT</version>
+ <!-- <version>1.0-SNAPSHOT</version>-->
+  <packaging>jar</packaging>
+
 
   <name>rookie-dao</name>
   <!-- FIXME change it to the project's website -->
@@ -26,6 +37,11 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>-->
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis</artifactId>
+    <!--  <version>${mybatis.version}</version>-->
+    </dependency>
   </dependencies>
 
   <build>
