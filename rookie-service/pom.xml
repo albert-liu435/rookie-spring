@@ -13,7 +13,8 @@
 
  <!-- <groupId>com.rookie.bigdata</groupId>-->
   <artifactId>rookie-service</artifactId>
-  <!--<version>1.0-SNAPSHOT</version>-->
+ <!-- <version>1.0-SNAPSHOT</version>-->
+  <version>1.0-release</version>
   <packaging>jar</packaging>
 
   <name>rookie-service</name>
@@ -32,6 +33,10 @@
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
      <!-- <version>5.1.9.RELEASE</version>-->
+    </dependency>
+    <dependency>
+      <groupId>com.taobao.top</groupId>
+      <artifactId>taobao-sdk-java-auto</artifactId>
     </dependency>
   </dependencies>
 
